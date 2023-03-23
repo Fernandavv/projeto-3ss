@@ -1,0 +1,59 @@
+
+
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(	0, 185, 205)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .custom-toggler.navbar-toggler  {
+    margin-top: 10px;
+
+    border-color: rgb(0, 0, 0);
+  }
+   .cust
+
+  
+
+  .navbar::before {
+    left: 0;
+    clip-path: polygon(0 0, 100% 0%, 82% 100%, 0% 100%);
+  }
+
+  .navbar::after {
+    right: 0;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 18% 100%);
+  }
+  .navbar::after,
+  .navbar::before {
+    content: "";
+    position: absolute;
+    width: 115px;
+    height: 20px;
+    background: #000;
+    bottom: -17px;
+  }
+
+  .navbar::before {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0%, 82% 100%, 0% 100%);
+  }
+
+  .navbar::after {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 18% 100%);
+  }
+
+  .navbar-brand img {
+    display: block;
+    position: absolute;
+    top: -30px;
+    left: 5px;
+
+    }
+    
+.navbar{
+max-height: 100px;
+}
